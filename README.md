@@ -33,7 +33,7 @@ portfolio-site/
 ├── index.html        # Main portfolio page
 ├── style.css         # Styling
 ├── assets/           # Project screenshots
-└── README.md
+└── README.md"
 
 ````
 
