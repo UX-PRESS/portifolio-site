@@ -45,8 +45,6 @@ Here are some of the projects currently featured in this portfolio:
 
 | Project            | Live Demo                             | Source Code                               |
 |--------------------|----------------------------------------|--------------------------------------------|
-| Site Pessoal       | [View Site](https://site1.vercel.app) | [GitHub](https://github.com/yourorg/site-pessoal) |
-| Landing Page X     | [View Site](https://landing.vercel.app) | [GitHub](https://github.com/yourorg/landing-page-x) |
-| Blog Static HTML   | [View Site](https://blog.netlify.app) | [GitHub](https://github.com/yourorg/blog-html-css) |
+| B2B Website       | [View Site](https://site1.uxpress.app) | [GitHub](https://github.com/yourorg/site-pessoal) |
 
 > ✏️ You can easily add more projects by editing `index.html`.

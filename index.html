@@ -2,47 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>UXPRESS PORTFOLIO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UXPRESS Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <img src="assets/img/logo_.png" alt="UXPRESS Logo" class="logo" />
+  </nav>
 
-  <header id="main-header">
-    <h1 class="site-title">UXPRESS PORTFOLIO</h1>
-    <p class="site-description">A collection of websites and projects we've built using modern web technologies.</p>
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>UXPRESS PORTFOLIO - CAPTURE YOUR ESSENCE</h1>
+    <p>A collection of websites and projects we've built using modern web technologies.</p>
   </header>
 
-  <main id="projects-gallery">
-    
-    <!-- Project Card -->
-    <section class="project-card">
-      <img src="assets/project1.png" alt="Project 1 Screenshot" class="project-image" />
-      <h2 class="project-title">B2B Website</h2>  
-      <!-- TODO: name this project -->
-      <p class="project-description">A clean personal portfolio site to showcase my skills and resume.</p>
-      <p class="project-tech">HTML • CSS</p>
-      <div class="project-links">
-              <!-- TODO: link for the right site-->
-        <a href="https://your-live-link.com" target="_blank" rel="noopener noreferrer" class="project-link">View Site</a>
-      </div>
-    </section>
+  <!-- Carousel with arrows -->
+  <section class="carousel-container">
+    <button class="nav-btn left" onclick="scrollLeft()">‹</button>
+    <div class="carousel" id="carousel">
+      <img src="assets/img/vectron.png" alt="vectron" class="thumb" />
+      <img src="assets/img/Profilex.png" alt="profilex" class="thumb" />
+      <img src="assets/img/mercadex.png" alt="mercadex" class="thumb" />
+      <img src="assets/img/Mentora.png" alt="mentora" class="thumb" />
+      <img src="assets/img/Flashpoint.png" alt="flashpoint" class="thumb" />
+      <img src="assets/img/Heartwave.png" alt="heartwave" class="thumb" />
+      <img src="assets/img/Inkspare.png" alt="inkspare" class="thumb" />
+    </div>
+    <button class="nav-btn right" onclick="scrollRight()">›</button>
+  </section>
 
-    <!-- more projects  -->
-      <!-- TODO: busness / corporate-->
-      <!-- TODO: ecormerce -->
-      <!-- TODO: Ṕortifolio -->
-      <!-- TODO: blog -->
-      <!-- TODO: resume cv -->
-      <!-- TODO: restaurant cafe -->
-      <!-- TODO: evente/ conference-->
-      <!-- TODO: non profit charity -->
-      <!-- TODO: education -->
-
-  </main>
-
-  <footer id="main-footer">
-    <p class="footer-text">Made by UXPRESS — © 2025</p>
+  <!-- Footer -->
+  <footer>
+    <p>Made by UXPRESS — © 2025</p>
   </footer>
 
+  <script>
+    function scrollLeft() {
+      document.getElementById('carousel').scrollBy({ left: -200, behavior: 'smooth' });
+    }
+
+    function scrollRight() {
+      document.getElementById('carousel').scrollBy({ left: 200, behavior: 'smooth' });
+    }
+  </script>
 </body>
 </html>
