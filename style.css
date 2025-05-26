@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #111;
+  text-align: center;
+}
+
+.navbar {
+  padding: 10px 0;
+  background: #fff;
+}
+
+.logo {
+  height: 40px;
+}
+
+.hero {
+  padding: 40px 20px 10px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.hero p {
+  font-size: 16px;
+  color: #444;
+  max-width: 600px;
+  margin: 10px auto 0;
+}
+
+.carousel-container {
+  position: relative;
+  margin: 20px auto;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 10px 40px;
+}
+
+.carousel {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px 0;
+}
+
+.thumb {
+  width: 80px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  color: #333;
+  z-index: 1;
+}
+
+.nav-btn.left {
+  left: 0;
+}
+
+.nav-btn.right {
+  right: 0;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #888;
+}
